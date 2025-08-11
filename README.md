@@ -1,5 +1,5 @@
 ```
-prep.sh
+sh prep.sh
 ~/install.sh
 ~/start.sh
 ~/stop.sh
