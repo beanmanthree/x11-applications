@@ -20,5 +20,4 @@ fi
 
 # Run mindustry
 export ALSOFT_DRIVERS=null
-export DISPLAY=:99
 ~/applications/mindustry/Mindustry &
