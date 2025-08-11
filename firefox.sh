@@ -10,5 +10,4 @@ fi
 
 # Run firefox-esr
 export ALSOFT_DRIVERS=null
-export DISPLAY=:99
 firefox-esr &
