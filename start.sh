@@ -7,6 +7,7 @@ pkill -f websockify
 pkill -f fluxbox
 
 # Start virtual X server
+export ALSOFT_DRIVERS=null
 export DISPLAY=:99
 # Xvfb :99 -screen screenNumber widthxheightxcolorAmount
 # Xvfb :99 -screen 0 1280x720x24 & # Better Resolution
