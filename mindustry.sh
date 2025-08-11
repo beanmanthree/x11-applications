@@ -12,6 +12,7 @@ if [ ! -d "$HOME/applications/mindustry" ]; then
 
   # Extract
   unzip mindustry-linux-64-bit.zip
+  rm mindustry-linux-64-bit.zip
 
   # Prepare file
   chmod +x Mindustry
