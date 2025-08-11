@@ -5,3 +5,6 @@ find . -type f -name "*.sh" -exec chmod +x {} +
 
 # Move all sh files to ~
 mv *.sh ~/
+
+# Self destruct
+rm -- "$0"
