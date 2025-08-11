@@ -1,7 +1,11 @@
 #!/bin/bash
 
-# Check if exists
+# Check if ss14 exists
 if [ ! -d "$HOME/applications/ss14" ]; then
+
+  # Install required libraries
+  sudo apt install -y dotnet-runtime-7.0 libicu-dev libfontconfig1
+  sudo apt install -y libopenal1 libopenal-dev libgdiplus libx11-6 libxrandr2 libxi6 libxcursor1 libxinerama1
   
   # Make folder
   mkdir -p ~/applications/ss14
