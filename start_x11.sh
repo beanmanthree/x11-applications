@@ -8,7 +8,8 @@ pkill -f fluxbox
 
 # Start virtual X server
 export DISPLAY=:99
-Xvfb :99 -screen 0 1280x720x24 &
+# Xvfb :99 -screen 0 1280x720x24 & # Better Resolution
+Xvfb :99 -screen 0 800x600x8 &  # Very lightweight
 sleep 2
 
 # Start window manager
