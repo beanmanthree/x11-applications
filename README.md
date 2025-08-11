@@ -1,5 +1,7 @@
-mv *.sh ~/
-
-cd ~
-
-find . -type f -name "*.sh" -exec chmod +x {} +
+```
+prep.sh
+~/install.sh
+~/start.sh
+~/stop.sh
+~/ss14.sh
+```
