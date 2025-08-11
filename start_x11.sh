@@ -20,20 +20,14 @@ sleep 2
 x11vnc -display :99 -nopw -listen localhost -xkb -forever -rfbport 5900 &
 sleep 2
 
-# Install websockify and noVNC if not already present
-if [ ! -d ~/noVNC ]; then
-    cd ~
-    git clone https://github.com/novnc/noVNC.git
-fi
-
-# Start web VNC client using installed websockify
+# Start web VNC client using websockify
 cd ~/noVNC
 websockify --web . 6080 localhost:5900 &
 
 echo "X11 environment ready!"
 echo "Processes started:"
 echo "- Xvfb running on display :99"
-echo "- Fluxbox window manager started"  
+echo "- Fluxbox window manager started"
 echo "- x11vnc server running on port 5900"
 echo "- websockify web interface on port 6080"
 echo "Access via: http://localhost:6080"
