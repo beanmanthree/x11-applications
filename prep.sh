@@ -7,4 +7,5 @@ find . -type f -name "*.sh" -exec chmod +x {} +
 mv *.sh ~/
 
 # Self destruct
+cd ~
 rm -- "$0"
