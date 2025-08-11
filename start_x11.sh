@@ -23,12 +23,3 @@ sleep 2
 # Start web VNC client using websockify
 cd ~/noVNC
 websockify --web . 6080 localhost:5900 &
-
-# Messages
-echo "X11 environment ready!"
-echo "Processes started:"
-echo "- Xvfb running on display :99"
-echo "- Fluxbox window manager started"
-echo "- x11vnc server running on port 5900"
-echo "- websockify web interface on port 6080"
-echo "Access via: http://localhost:6080"
