@@ -24,6 +24,7 @@ sleep 2
 cd ~/noVNC
 websockify --web . 6080 localhost:5900 &
 
+# Messages
 echo "X11 environment ready!"
 echo "Processes started:"
 echo "- Xvfb running on display :99"
