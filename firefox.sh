@@ -5,7 +5,7 @@ if ! dpkg -l | grep -q "firefox-esr"; then
   
   # Install firefox-esr
   sudo add-apt-repository ppa:mozillateam/ppa -y
-  sudo apt-get install firefox-esr
+  sudo apt-get install -y firefox-esr
 fi
 
 # Run firefox-esr
