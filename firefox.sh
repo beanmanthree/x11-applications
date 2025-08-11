@@ -9,5 +9,4 @@ if ! dpkg -l | grep -q "firefox-esr"; then
 fi
 
 # Run firefox-esr
-export ALSOFT_DRIVERS=null
 firefox-esr &
