@@ -16,6 +16,7 @@ if [ ! -d "$HOME/applications/ss14" ]; then
   
   # Extract
   unzip SS14.Launcher_Linux.zip
+  rm SS14.Launcher_Linux.zip
   
   # Prepare file
   chmod +x SS14.Launcher
