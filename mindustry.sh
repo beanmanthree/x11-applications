@@ -19,5 +19,4 @@ if [ ! -d "$HOME/applications/mindustry" ]; then
 fi
 
 # Run mindustry
-export ALSOFT_DRIVERS=null
 ~/applications/mindustry/Mindustry &
