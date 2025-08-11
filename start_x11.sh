@@ -26,9 +26,6 @@ if [ ! -d ~/noVNC ]; then
     git clone https://github.com/novnc/noVNC.git
 fi
 
-# Install websockify properly
-pip3 install websockify
-
 # Start web VNC client using installed websockify
 cd ~/noVNC
 websockify --web . 6080 localhost:5900 &
