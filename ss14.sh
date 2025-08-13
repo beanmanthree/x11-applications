@@ -23,4 +23,6 @@ if [ ! -d "$HOME/applications/ss14" ]; then
 fi
 
 # Run ss14
+export ALSOFT_DRIVERS=null
+export DISPLAY=:99
 ~/applications/ss14/SS14.Launcher &
